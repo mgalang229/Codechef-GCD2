@@ -24,7 +24,7 @@ int main() {
 		} else {
 			int num = 0;
 			for (int i = 0; i < (int) b.size(); i++) {
-				// calculate the number equivalence of the string taking
+				// calculate the number equivalence of the string while taking
 				// consideration of the using 'num' modulus 'a' for each process
 				num = ((num * 10) + (b[i] - '0')) % a;
 			}
